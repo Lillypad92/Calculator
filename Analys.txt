@@ -1,0 +1,25 @@
+﻿Här kommer min analys utav min version på miniräknaren som jag har gjort.
+
+1. I början när programmet körs så tänker jag att man kan ha en visuell bild på en miniräknare, 
+för att tydliggöra visuellt att det är en miniräknare som körs i konsolen. Här har jag sett exempel på att 
+man kan ta hjälp utav WriteLine och Write samt med hjälp utav special tecken för att få till en bild i konsolen. 
+
+2. I mitt program har jag gjort så att man ej kan välja en matematisk operator när menyn för den matematiska operatorerna kommer upp.
+Istället har jag gjort så att användaren får välja mellan 1 - 4, där varje siffra har en operator. Ett förslag som jag har är att användaren även skulle
+kunna få trycka på en matematisk operator också (+ , - , /, *).
+
+3. I programmet så har jag satt olika färger beroende på vad det är för något som visas. Till exempel så har varje felmeddelande en röd text.
+Resultat/resultaten har en blå färg och svaret som man skriver är i färgen cyan. Gjorde så för att programmet inte skulle bli tråkig och visas enbart i vitt. 
+Syftet med färgerna är att det ska bli mer visuellt tydligt vart man är i programmet, vart svaret är osv.
+
+4. Jag har satt lite mellanrum mellan varje steg i programmet för att inte allting ska vara ihoptryckt och för att det ska vara lättare att se mellan
+varje steg. Har även satt en Thread.Sleep() så att inte allting kommer på en och samma gång, så man hinner se vad som händer. 
+
+5. En idé som jag har tänkt är att istället för att stega i programmet (och väljer ett tal i taget samt operator) 
+så skulle man även kunna göra så att användaren skriver in direkt vilken siffra, vilken matematisk operator och sist en till siffra. Att det därfter visas ett resultat.
+
+6. I min version på kalkylatorn byggde jag programmet i metoder, för att träna mer på detta och hur det fungerar. Hur man anropar metoder för att
+programmet ska fungera. Här skulle man också kunna bygga programmet i en Main metod och bara använda den för kalkylator istället för att bygga kalkylatorn i flera metoder.
+
+7. Jag valde att använda enum i mitt programm, här skulle man kunna bygga en kalylator utan att använda enum. Jag valde att utmana mig själv och provade 
+med att använda en enum för de matematiska operatorerna. 
